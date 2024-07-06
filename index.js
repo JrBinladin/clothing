@@ -1,15 +1,4 @@
-<script>
-        var products = [
-        { id: 1, name: "Abibas", price: 270.00 },
-        { id: 2, name: "Lacoste", price: 370.00 },
-        { id: 3, name: "Polo", price: 400.00 },
-        { id: 4, name: "Nike", price: 450.00 },
-        { id: 5, name: "Beach", price: 500.00 },
-        { id: 6, name: "Diamond", price: 650.00 },
-      
-    ];
-    
-    
+
     var qtyInputs = document.querySelectorAll('[id^="qty"]');
     var carts = document.getElementById("carts");
     var totalInput = document.getElementById("total");
